@@ -35,6 +35,7 @@ To use this model, you need to clone the repository and obtain a secret key for 
    cd numerai-competition-model
    chmod +x ./install_dependencies.sh
    conda create -n numerai python=3.8
+   conda activate numerai
    ./install_dependencies.sh
    ```
 
