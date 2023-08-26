@@ -1,1 +1,4 @@
 *.secrets
+numerai*.zip
+*.csv
+numerai*/
