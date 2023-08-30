@@ -2,3 +2,5 @@
 numerai*.zip
 *.csv
 numerai*/
+features.json
+*.parquet
