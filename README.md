@@ -1,4 +1,3 @@
-Certainly! Here's a basic template for your README file:
 
 ---
 

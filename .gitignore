@@ -4,3 +4,4 @@ numerai*.zip
 numerai*/
 features.json
 *.parquet
+*dataset*/
