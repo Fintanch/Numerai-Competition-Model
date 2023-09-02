@@ -5,3 +5,4 @@ numerai*/
 features.json
 *.parquet
 *dataset*/
+*.pyc
