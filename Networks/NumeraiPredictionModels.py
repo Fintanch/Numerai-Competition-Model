@@ -69,7 +69,7 @@ class ResidualFeatureEncoder(nn.Module):
             th.save(self.state_dict(), self.save_path + "/" + f'{self._ds_name}_{self._expert_num}_weights.pt') 
 
 class ExpertDecoder(nn.Module):
-    def __init__(self, num_experts = 15, num_residuals=5, input_dim=313, output_dim=1, residual_input_dim=313, residual_output_dim= 256, residual_dim=512, dropout_probs=0.05, load_default=False, dataset_name="Dataset_563", device='cuda'):
+    def __init__(self, num_experts = 15, num_residuals=5, input_dim=310, output_dim=5, residual_input_dim=313, residual_output_dim= 256, residual_dim=512, dropout_probs=0.05, load_default=False, dataset_name="Dataset_563", device='cuda'):
         super(ExpertDecoder, self).__init__()
         self.device = device
         self.to(self.device)
