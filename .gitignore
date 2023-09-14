@@ -6,3 +6,6 @@ features.json
 *.parquet
 *dataset*/
 *.pyc
+
+# Excluding Pretrained models in the Code
+*.pt 
